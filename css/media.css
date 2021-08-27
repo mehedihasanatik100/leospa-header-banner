@@ -1,0 +1,172 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* ::::::::: Header  start ::::::::: */
+    .castom-toggler {
+        padding: 0px 0;
+    }
+    .castom-toggler span {
+        font-size: 21px;
+    }
+    .menu {
+        margin-right: 0;
+        background-color: #fcf5ee;
+        transition: .5s;
+    }
+    .menu ul li a {
+        margin-top: 15px;
+    }
+    /* ::::::::: Header  end ::::::::: */
+
+
+
+
+    /* ::::::::: Banner section  start ::::::::: */
+    .banner {
+        padding: 110px 0 40px;
+    }
+    .spa-img {
+        display: none;
+    }
+    .banner-content span {
+        margin-bottom: 0px;
+        letter-spacing:0;
+    }
+    .banner-content h2 {
+        margin-bottom: 4px;
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .banner-content p {
+        margin-bottom: 17px;
+    }
+    .common-btn {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+    .video-btn {
+        margin-left: 6px;
+    }
+    .video-btn i {
+        margin-right: 4px;
+        height: 36px;
+        width: 36px;
+        line-height: 31px;
+    }
+    /* ::::::::: Banner section  end ::::::::: */
+	
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px)  {
+
+    /* ::::::::: Header  start ::::::::: */
+    .castom-toggler {
+        padding: 0px 0;
+    }
+    .menu {
+        margin-right: 0;
+        background-color: #fcf5ee;
+        transition: .5s;
+    }
+    .menu ul li a {
+        margin-top: 15px;
+    }
+    /* ::::::::: Header  end ::::::::: */
+
+
+
+    /* ::::::::: Banner section  start ::::::::: */
+    .banner {
+        padding: 110px 0 60px;
+    }
+    .spa-img {
+        display: none;
+    }
+    .banner-content span {
+        margin-bottom: 0px;
+        letter-spacing: 0.5px;
+    }
+    .banner-content h2 {
+        margin-bottom: 4px;
+        font-size: 44px;
+        line-height: 59px;
+    }
+    .banner-content p {
+        margin-bottom: 17px;
+    }
+    .common-btn {
+        padding: 10px 27px;
+    }
+    .video-btn {
+        margin-left: 10px;
+    }
+    .video-btn i {
+        margin-right: 8px;
+        height: 40px;
+        width: 40px;
+        line-height: 35px;
+    }
+    /* ::::::::: Banner section  end ::::::::: */
+	
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px)  {
+    /* ::::::::: Header  start ::::::::: */
+    .menu {
+        margin-right: 0;
+        background-color: #fcf5ee;
+        transition: .5s;
+    }
+    .menu ul li a {
+        margin-top: 15px;
+    }
+    /* ::::::::: Header  end ::::::::: */
+
+
+
+    /* ::::::::: Banner section  start ::::::::: */
+    .banner {
+        padding: 120px 0 80px;
+    }
+    .spa-img {
+        display: none;
+    }
+    .banner-content span {
+        margin-bottom: 10px;
+    }
+    .banner-content h2 {
+        margin-bottom: 10px;
+        font-size: 50px;
+        line-height: 66px;
+    }
+    .banner-content p {
+        margin-bottom: 25px;;
+    }
+    .common-btn {
+        padding: 13px 35px;
+    }
+    /* ::::::::: Banner section  end ::::::::: */
+	
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/* ::::::::: Banner section  start ::::::::: */
+    .banner {
+        padding: 120px 0 110px;
+    }
+    .banner-content h2 {
+        font-size: 50px;
+    }
+    /* ::::::::: Banner section  end ::::::::: */
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px)  {
+	
+}
+
+ /*XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
